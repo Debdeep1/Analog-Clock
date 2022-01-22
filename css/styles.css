@@ -1,0 +1,37 @@
+*{
+    background-image:radial-gradient(#000, #000, #0964ed, #3141b9);
+}
+#clockcontain{
+  position: relative;
+  margin: auto;
+  height: 40vw;
+  width: 40vw;
+  background-image: url(../images/clock1.png);
+  background-size: 100%;
+}
+#hour, #minute, #second{
+ position: absolute;
+ border-radius: 10px;
+ transform-origin: bottom;
+}
+#hour{
+  width: 2%;
+  height: 17%;
+  top: 33.2%;
+  left: 48.79%;
+  background-image: linear-gradient(50deg, #000, #000, #0964ed, #edbc09, #bfed09, #ed0909);
+}
+#minute{
+  width: 1%;
+  height: 24%;
+  top: 26.2%;
+  left: 49.28%;
+  background-image: linear-gradient(50deg, #000, #000, #0ded29, #7112b9, #9812b9, #3141b9);
+}
+#second{
+    width: 0.4%;
+    height: 31%;
+    top: 19%;
+    left: 49.6%;
+    background-image: linear-gradient(50deg, #000, #000, #ea119b, #1122ea, #ea910b, #e62a00);
+}
